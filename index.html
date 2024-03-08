@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="bg-[rgb(227,239,248)]">
+        <div class="container m-auto px-[60px] py-5 ">
+            <div class="flex justify-between items-center">
+                <h2 class="text-center text-red text-3xl cursor-pointer text-[rgb(85,159,214)] font-bold"><a
+                        href="#">Logo</a></h2>
+                <ul class="flex gap-6 flex">
+                    <li class="text-black font-bold cursor-pointer hover:text-[rgb(85,159,214)] duration-500"><a
+                            href="">Home</a></li>
+                    <li class="text-black font-bold cursor-pointer hover:text-[rgb(85,159,214)] duration-500"><a
+                            href="#">About</a></li>
+                    <li class="text-black font-bold cursor-pointer hover:text-[rgb(85,159,214)] duration-500"><a
+                            href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero py-[20px]" style="background: url(./images/hero.svg)no-repeat center /cover;">
+            <div class="container m-auto px-[60px] flex justify-between items-center">
+                <div class="w-[1/2]">
+                    <h2 class="text-5xl w-[490px] leading-[70px]">New <span class="text-red-500">E-commerce App</span>
+                        best for You</h2>
+                    <p class="text-black-300 text-3xl w-[620px] leading-[45px] pt-6">Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipiscing elit.
+                        Amet sed vulputate vitae velit dictum
+                        cursus amet. Turpis donec
+                        ut velit quis. Cursus commodo, eget urna, sapien amet.</p>
+                    <div class="flex gap-[30px] py-[30px]">
+                        <button
+                            class="bg-[rgb(74,153,211)] flex items-center gap-[5px] px-[20px] py-2 rounded-md  border-[rgb(74,153,211)] hover:bg-green-500 duration-300 ">
+                            <div class="btn__img size-9">
+                                <img class="size-full" src="./images/googlplay.png" alt="">
+                            </div>
+                            <div class="flex-col gap-[10px] justify-start items-start content-start ">
+                                <h5 class="text-[15px] text-white ">GET IN ON</h5>
+                                <h4 class="text-[18px] text-white ">Google Play</h4>
+                            </div>
+                        </button>
+                        <button
+                            class="bg-[rgb(74,153,211)] flex items-center gap-[5px] px-[20px] py-2 rounded-md  border-[rgb(74,153,211)] hover:bg-green-500 duration-300 ">
+                            <div class="btn__img size-9">
+                                <img class="size-full" src="./images/apple (1).svg" alt="">
+                            </div>
+                            <div class="flex-col gap-[10px] justify-start items-start content-start ">
+                                <h5 class="text-[15px] text-white ">Download on the</h5>
+                                <h4 class="text-[18px] text-white ">App Store</h4>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <img class="w-full" src="./images/hero__right.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="costumer">
+            <div class="container  m-auto px-[60px] py-5 ">
+                <h1 class="text-4xl text-black w-[350px] leading-[40px] py-[30px]">What we do to help
+                    our customers in
+                    digital era.</h1>
+                <!-- costumer cards -->
+                <div class="flex gap-7 flex-wrap m-auto justify-between py-[30px]">
+                    <!-- costumer cards -->
+                    <div class="shadow-2xl p-[60px] w-[30%] hover:shadow-[0_35px_60px_-15px_rgb(85,159,214)]">
+                        <div class="cotumer__img w-[185px] m-auto">
+                            <img class="w-full" src="./images/customer1.svg" alt="">
+                        </div>
+                        <div class="costumer__info p-[30px]">
+                            <h3 class="font-bold">Receive</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                            <div>
+                                <a href="" class="flex gap-3 items-center">
+                                    <span class="text-[rgb(85,159,214)] font-bold">Learn more</span>
+                                    <img src="./images/next.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-2xl p-[30px]  w-[30%] hover:shadow-[0_35px_60px_-15px_rgb(85,159,214)]">
+                        <div class="cotumer__img w-[185px] m-auto">
+                            <img class="w-full" src="./images/customer12svg.svg" alt="">
+                        </div>
+                        <div class="costumer__info p-[30px]">
+                            <h3 class="font-bold">Receive</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                            <div>
+                                <a href="" class="flex gap-3 items-center">
+                                    <span class="text-[rgb(85,159,214)] font-bold">Learn more</span>
+                                    <img src="./images/next.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-2xl p-[48px] w-[30%] hover:shadow-[0_35px_60px_-15px_rgb(85,159,214)]">
+                        <div class="cotumer__img w-[185px] m-auto">
+                            <img class="w-full" src="./images/customer3.svg" alt="">
+                        </div>
+                        <div class="costumer__info p-[30px]">
+                            <h3 class="font-bold">Receive</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                            <div>
+                                <a href="" class="flex gap-3 items-center">
+                                    <span class="text-[rgb(85,159,214)] font-bold">Learn more</span>
+                                    <img src="./images/next.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-2xl p-[60px] w-[30%] hover:shadow-[0_35px_60px_-15px_rgb(85,159,214)]">
+                        <div class="cotumer__img w-[185px] m-auto">
+                            <img class="w-full" src="./images/customer1.svg" alt="">
+                        </div>
+                        <div class="costumer__info p-[30px]">
+                            <h3 class="font-bold">Receive</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                            <div>
+                                <a href="" class="flex gap-3 items-center">
+                                    <span class="text-[rgb(85,159,214)] font-bold">Learn more</span>
+                                    <img src="./images/next.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-2xl p-[30px]  w-[30%] hover:shadow-[0_35px_60px_-15px_rgb(85,159,214)]">
+                        <div class="cotumer__img w-[185px] m-auto">
+                            <img class="w-full" src="./images/customer12svg.svg" alt="">
+                        </div>
+                        <div class="costumer__info p-[30px]">
+                            <h3 class="font-bold">Receive</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                            <div>
+                                <a href="" class="flex gap-3 items-center">
+                                    <span class="text-[rgb(85,159,214)] font-bold">Learn more</span>
+                                    <img src="./images/next.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shadow-2xl p-[48px] w-[30%] hover:shadow-[0_35px_60px_-15px_rgb(85,159,214)]">
+                        <div class="cotumer__img w-[185px] m-auto">
+                            <img class="w-full" src="./images/customer3.svg" alt="">
+                        </div>
+                        <div class="costumer__info p-[30px]">
+                            <h3 class="font-bold">Receive</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                            <div>
+                                <a href="" class="flex gap-3 items-center">
+                                    <span class="text-[rgb(85,159,214)] font-bold">Learn more</span>
+                                    <img src="./images/next.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="work p-[40px] mb-7" style=" background: #4A99D31A;">
+            <div class="container">
+                <h1 class="text-center text-4xl text-blue-500 font-bold py-8">How it works</h1>
+                <!-- work cards -->
+                <div class="flex gap-[30px] justify-center">
+                    <!-- work card -->
+                    <div class="w-[30%] hover:shadow-2xl hover:bg-white p-[50px] duration-300">
+                        <div class="work__img w-[70px] m-auto">
+                            <img class="w-full" src="./images/work1.svg" alt="">
+                        </div>
+                        <div class="work__info text-center">
+                            <h3 class="text-black font-bold text-2xl">Create an account</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet,
+                                consecteteu.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-[30%] hover:shadow-2xl hover:bg-white p-[50px] duration-300">
+                        <div class="work__img w-[70px] m-auto">
+                            <img class="w-full" src="./images/work2.svg" alt="">
+                        </div>
+                        <div class="work__info text-center">
+                            <h3 class="text-black font-bold text-2xl">Create an account</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet,
+                                consecteteu.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-[30%] hover:shadow-2xl hover:bg-white p-[50px] duration-300">
+                        <div class="work__img w-[70px] m-auto">
+                            <img class="w-full" src="./images/work3.svg" alt="">
+                        </div>
+                        <div class="work__info text-center">
+                            <h3 class="text-black font-bold text-2xl">Create an account</h3>
+                            <p class="pt-2 pb-10">
+                                Lorem ipsum dolor sit amet,
+                                consecteteu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="client py-[50px]">
+            <div class="container m-auto px-[60px] py-5">
+                <h1 class="text-center text-4xl font-bold">What our client say</h1>
+                <div class="flex gap-[100px] items-center pt-[40px]">
+                    <div>
+                        <img src="./images/client.svg" alt="">
+                    </div>
+                    <div class="pt-[30px]">
+                        <div class="size-12">
+                            <img class="size-full" src="./images/qosh.svg" alt="">
+                        </div>
+                        <p class="w-[600px] text-[24px] py-[40px]">
+                            Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet
+                            vitae et etiam nec. Varius
+                            volutpat hac adipiscing tincidunt pretium.
+                        </p>
+                        <h3 class="font-bold text-2xl text-black">Angel Paulina</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download py-[50px]">
+            <div class="container m-auto px-[60px] py-5">
+                <div class="flex gap-[100px] items-center pt-[40px]">
+                    <div>
+                        <img src="./images/download.svg" alt="">
+                    </div>
+                    <div class="pt-[30px]">
+                        <h2 class="font-bold text-2xl text-black">Download app to enjoy more!</h2>
+                        <p class="w-[600px] text-[24px] py-[40px]">
+                            Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet
+                            vitae et etiam nec. Varius
+                            volutpat hac adipiscing tincidunt pretium.
+                        </p>
+                        <div>
+                            <button class="px-[20px] py-2 rounded-md bg-black hover:bg-green-500 duration-300">
+                                <img src="./images/google_btn.svg" alt="">
+                            </button>
+                            <button class="px-[20px] py-2 rounded-md bg-black hover:bg-green-500 duration-300">
+                                <img src="./images/app__btn.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-500">
+        <div class="container m-auto px-[60px] py-5 ">
+            <div class="footer__top flex justify-between py-14">
+                <div class="font-bold text-white text-4xl">
+                    <a href="#">
+                        Logo
+                    </a>
+                </div>
+                <div class="flex gap-16">
+                    <div class="text-white">
+                        <h2 class="font-medium text-lg pb-1 border-b-2">
+                            Quick Links
+                        </h2>
+                        <ul class="flex flex-col gap-4 pt-5">
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="font-medium text-lg pb-1 border-b-2">
+                            Others
+                        </h2>
+                        <ul class="flex flex-col gap-4 pt-5">
+                            <li><a href="#">User FAQs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Legal</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="font-medium text-lg pb-1 border-b-2">
+                            Products
+                        </h2>
+                        <ul class="flex flex-col gap-4 pt-5">
+                            <li><a href="#">Send</a></li>
+                            <li><a href="#">Receive</a></li>
+                            <li><a href="#">Buy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-white w-80">
+                    Subscribe to our newsletter and be the first to know
+                    about our updates
+                </p>
+            </div>
+            <div class="w-full h-1 bg-white my-6"></div>
+            <div class="footer__bottom flex justify-between items-center">
+                <p class="text-white text-xl text-bold">Copyright © 2020. All rights reserved.</p>
+                <div class="flex gap-[40px] items-center">
+                    <div><img src="./images/insta.svg" alt=""></div>
+                    <div><img src="./images/faccbok.svg" alt=""></div>
+                    <div><img src="./images/twitter.svg" alt=""></div>
+                    <div><img src="./images/insta.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
